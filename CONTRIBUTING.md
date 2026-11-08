@@ -15,6 +15,14 @@
 - Nunca se suben claves, tokens ni archivos `.env`. Usa `.env.example` para documentar variables.
 - Si dudas del alcance de algo, pregunta en el issue antes de escribir código.
 
+## Versiones y releases
+
+Cómo se numeran las versiones (SemVer en `bundleVersion`), el protocolo de los juegos en línea, el `CHANGELOG.md` para jugadores
+y la receta de cada release: [docs/versiones-y-releases.md](docs/versiones-y-releases.md).
+
+- Si el jugador nota tu cambio, añade su línea en `CHANGELOG.md`, en «[Sin publicar]».
+- La versión se sube al publicar, no en cada PR.
+
 ## Idioma
 
 **Todo el código en inglés. Toda la documentación en español, respetando los nombres de código en inglés.**
